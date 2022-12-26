@@ -1,0 +1,125 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ ul li {
+    list-style-type: none;
+ }
+ 
+ a{
+    text-decoration: none;
+ }
+
+.container {
+margin: 0 auto;
+width: 960px;
+}
+
+/* Header*/
+.header{
+    padding: 50px 0;
+    background-color: yellowgreen;
+}
+.header h1,
+.header h2 
+{
+    color: greenyellow;
+    text-align: center;
+}
+/* NAVIGATION */
+.page-navigation{
+    background-color: #222;
+    border-color: #101010;
+    min-height: 64px;
+}
+
+.page-navigation li{
+    float: left;
+    width: 100 px;
+}
+
+.page-navigation a{
+    display: block;
+    color: #9d9d9d;
+    line-height: 4em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.page-navigation li a:hover {
+    color: yellowgreen;
+    background-color: black;
+}
+
+/* login form */
+.Login {
+padding: 15px 0;
+float: right;
+}
+
+.Login input[type="text" ], 
+.Login input[type= "password"] {
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+}
+.Login input[type="submit"]{
+    padding: 5px 15px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+/* main part */
+.collection {
+overflow: auto;
+}
+.collections-title{
+    padding: 5px;
+    border-bottom: 1px solid #777;
+    font-size: 36px;
+}
+.collections-title small {
+    color: #777;
+    font-size: 70%;
+}
+.collection-item {
+    display: inline-block; 
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.collection-outer{
+    display: inline-block; 
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: calc(100%/3);
+    box-sizing: border-box;
+}
+ .collection-item img{
+    width: 100%;
+ }
+ .collection-text {
+    padding: 0 20px 20px 20px;
+ }
+ .collection-text h3 {
+    color: yellowgreen;
+ }
+ .collection-text p {
+    font-size: 14px;
+ }
+ .collection-text button {
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+}
